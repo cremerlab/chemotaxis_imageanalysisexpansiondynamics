@@ -1,4 +1,4 @@
-# ct_imageanalysisexpansiondynamics
+# imageanalysisexpansiondynamics
 To analyze expansion and growth dynamics of fluorescently labeld cells expanding in soft-agar. Code implements 
 file handling specifically for the Leica Microsystems Leica Application Suite and its data export option as raw tif.
 

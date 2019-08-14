@@ -1,10 +1,14 @@
 # ct_imageanalysisexpansiondynamics
-To analyze expansion and growth dynamics of fluorescently labeld cells expanding in soft-agar. File handling for Leica SP8 data export.
+To analyze expansion and growth dynamics of fluorescently labeld cells expanding in soft-agar. Code implements 
+file handling specifically for the Leica Microsystems Leica Application Suite and its data export option as raw tif.
+
+We used this code to analyze images acquired with a Leica Microsystems SP8 confocal microscope. Method details and the biological context are provided in our  manuscript:
+- J.Cremer, T.Honda, Y.Tang, J.Wong-Ng, M.Vergassola, T.Hwa. Chemotaxis as a navigation strategy to thrive in nutrient-replete environments
+
+August 2019, Jonas Cremer and all coauthors.
 
 ## Collect data
-Collect timelapse data with a confocal microscope, taking z- and x-y scans. Ensure scans across the entire agar thickness, adjust intensity and detection settings such that full dynamical range is used but saturation at high bacterial densities (later in time) is prevented. Details of culturing and image aquisition are described our paper:
-
-This script works with the raw data image export of the Leica SP8 software (Leica Application Suite X). Store output as tif, option raw-data.
+Images were collected scanning samples in low-magnification, tile-scanning along one axes (x) and through the agar (z). Ensure scans across the entire agar thickness, adjust intensity and detection settings such that full dynamical range is used but saturation at high bacterial densities (later in time) is prevented. See our manuscript for detailed informations.
 
 ## Run the script
-Run imageanalysis_populationdynamics.py to do image analysis. Before running script the first time, adjust path settings (name of input data and output folders etc), see comments provided in the file. 
+Run "imageanalysis_populationdynamics.py" to do image analysis. Before running script the first time, adjust path settings (name of input data and output folders etc), see comments provided in the file. 
